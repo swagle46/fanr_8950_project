@@ -58,7 +58,7 @@ names(ga_tree) <- tolower(names(ga_tree)) #lowering all column names
 ga_plot <- read_csv("./data/GA_PLOT.csv")
 names(ga_plot) <- tolower(names(ga_plot))  #lowering all column names
 
-spp_name <-  read_csv("./data/REF_SPECIES.csv")
+spp_name <-  read_csv("REF_SPECIES.csv")
 names(spp_name) <- tolower(names(spp_name))  #lowering all column names
 
 
